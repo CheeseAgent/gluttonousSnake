@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    color: rgb(184, 71, 108);
+}
+
+.box {
+    width: 501px;
+    height: 501px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: gray solid 1px;
+    border-left: gray solid 1px;
+}
